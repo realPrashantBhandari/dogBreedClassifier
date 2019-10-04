@@ -1,14 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
 
 # Following is the ink to download the dataset
 # http://vision.stanford.edu/aditya86/ImageNetDogs/images.tar
-
-
-# In[3]:
+# download the image data and update the path variable to the downloaded dataset
 
 
 # this code will take a single folder dataset ad will split it into train and validation datset
