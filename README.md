@@ -2,9 +2,12 @@
 The model is trained to determine the breed of different dogs. The model is trained using the weights of the MobileNet model and classify dogs amongs 120 different classes.
 
 Steps to train the model from the start-
-  1.Download the following dataset - http://vision.stanford.edu/aditya86/ImageNetDogs/images.tar .
+  1.Download the following dataset - http://vision.stanford.edu/aditya86/ImageNetDogs/images.tar
+  
   2.Open the generateDataset.py file and update the path variable. The python file will split the data into train and validdation dataset.
+  
   3. Open train_Model.pynb jupyter notebook and run the program. The jupyter notebook will generate the mode.h5 and model.json file.
+  
   4. Open testModel.pynb to test the newly trained model.
 
 Note - if you change the path or filename, update the corresponding variables in each jupyter notebook.
